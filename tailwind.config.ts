@@ -7,10 +7,22 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      hsp: "1066px",
+      xl: "1440px",
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        madeinblacc: " #221911",
+        theddi: "#ECFOF1",
+        theddipost: "#981E0B",
+      },
+      fontFamily: {
+        lato: ['"Lato"', "sans-serif"],
+        poppins: ['"Poppins"', "sans-serif"],
       },
     },
   },
