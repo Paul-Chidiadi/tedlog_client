@@ -63,13 +63,13 @@ export default function Header() {
         {/* CTAS AT LARGE SCREEN */}
         <div className="hidden items-center justify-between gap-3 lg:flex">
           <a
-            href="#"
+            href="/auth/login"
             className="flex items-center justify-center px-6 py-3 rounded-md border border-madeinblacc font-poppins font-normal text-madeinblacc text-base cursor-pointer hover:border-burnt hover:text-burnt"
           >
             Sign in
           </a>
           <a
-            href="#"
+            href="/auth/signup"
             className="flex items-center justify-center px-6 py-3 rounded-md border border-madeinblacc font-poppins font-normal bg-madeinblacc text-white text-base cursor-pointer hover:bg-burnt hover:border-burnt"
           >
             Create Account
@@ -85,13 +85,13 @@ export default function Header() {
             {/* CTAS AT SMALL SCREEN */}
             <div className="flex items-center justify-between gap-3">
               <a
-                href="#"
+                href="/auth/login"
                 className="flex items-center justify-center px-6 py-3 rounded- border border-neutral font-poppins font-normal text-neutral text-base cursor-pointer"
               >
                 Sign in
               </a>
               <a
-                href="#"
+                href="/auth/signup"
                 className="flex items-center justify-center px-6 py-3 rounded-md border border-neutral font-poppins font-normal bg-neutral text-white text-base cursor-pointer"
               >
                 Create Account

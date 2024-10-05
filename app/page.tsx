@@ -1,8 +1,11 @@
 import Image from "next/image";
+import Header from "../components/header";
 
 export default function Home() {
   return (
     <>
+      <Header />
+
       <div className="w-full h-fit px-8 py-4 md:px-20 md:py-5 mt-20">
         <div className="relative z-10 bg-[url('/hero-1.jpg')] bg-no-repeat bg-cover bg-center flex justify-start items-center rounded-lg md:rounded-3xl w-full h-svh px-2 py-4 md:px-5 md:py-5">
           <div className="absolute -z-10 inset-0 bg-gradient-to-l from-madeinblacc to-warmwhite opacity-75 rounded-lg md:rounded-3xl"></div>
