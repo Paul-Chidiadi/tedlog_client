@@ -25,7 +25,7 @@ export default function Login() {
 
           <form className="w-3/4 flex flex-col gap-6">
             <div className="w-full flex flex-col gap-2">
-              <label className="font-poppins font-semibold text-left text-basetext-madeinblacc">
+              <label className="font-poppins font-semibold text-left text-base text-madeinblacc">
                 Email Address
               </label>
               <input
@@ -36,7 +36,7 @@ export default function Login() {
             </div>
 
             <div className="w-full flex flex-col gap-2">
-              <label className="font-poppins font-semibold text-left text-basetext-madeinblacc">
+              <label className="font-poppins font-semibold text-left text-base text-madeinblacc">
                 Password
               </label>
               <input

@@ -25,7 +25,7 @@ export default function Reset() {
 
           <form className="w-3/4 flex flex-col gap-6">
             <div className="w-full flex flex-col gap-2">
-              <label className="font-poppins font-semibold text-left text-basetext-madeinblacc">
+              <label className="font-poppins font-semibold text-left text-base text-madeinblacc">
                 Old Password
               </label>
               <input
@@ -36,7 +36,7 @@ export default function Reset() {
             </div>
 
             <div className="w-full flex flex-col gap-2">
-              <label className="font-poppins font-semibold text-left text-basetext-madeinblacc">
+              <label className="font-poppins font-semibold text-left text-base text-madeinblacc">
                 New Password
               </label>
               <input
@@ -47,7 +47,7 @@ export default function Reset() {
             </div>
 
             <div className="w-full flex flex-col gap-2">
-              <label className="font-poppins font-semibold text-left text-basetext-madeinblacc">
+              <label className="font-poppins font-semibold text-left text-base text-madeinblacc">
                 Confirm Password
               </label>
               <input
