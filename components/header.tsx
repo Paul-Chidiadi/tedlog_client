@@ -8,7 +8,7 @@ export default function Header() {
     { id: 1, title: "Home", link: "/", isSelected: true },
     { id: 2, title: "About", link: "#", isSelected: false },
     { id: 3, title: "Blog", link: "#", isSelected: false },
-    { id: 3, title: "Track Dispatch", link: "#", isSelected: false },
+    { id: 4, title: "Market Place", link: "#", isSelected: false },
   ]);
 
   const toggleMenu = () => {

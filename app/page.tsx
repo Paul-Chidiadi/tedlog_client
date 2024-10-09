@@ -25,7 +25,7 @@ export default function Home() {
                 placeholder="input tracking number"
               />
               <a
-                href="#"
+                href="/track"
                 className="w-full md:w-2/5 h-11 md:h-16 flex items-center justify-center px-6 py-3 rounded-md border border-madeinblacc font-poppins font-normal bg-madeinblacc text-white text-sm md:text-base cursor-pointer hover:bg-burnt hover:border-burnt"
               >
                 Track Dispatch
